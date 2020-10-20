@@ -1,0 +1,33 @@
+.logo{
+    width: 4%;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo_text{
+    align-self: center;
+    color: black;
+    alignment: top;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.menu_item{
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 30px;
+    padding-right:30px;
+    align-content: center;
+    background-color: #ffffff;
+}
+
+.menu_item_logo{
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 30px;
+    padding-right:30px;
+    align-content: center;
+    background-color: #ffffff;
+}
+
+.card:hover {
+    box-shadow: -11px 5px 18px 0 rgba(0,0,0,0.2);
+}

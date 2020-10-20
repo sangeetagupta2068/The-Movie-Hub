@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Movie Hub</title>
+    <link rel="stylesheet" href="css/navigation.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+<style>
+    body, html {
+        height: 100%;
+    }
+
+    .parallax {
+        background-image: url('images/background_camera.jpg');
+        height: 100%;
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+<body>
+<header>
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper">
+            <ul id="nav-left" class="left hide-on-med-and-down">
+                <li><a href="/Users/sangeetagupta/WebstormProjects/project_1/home.html" class="menu_item">The Movie Bud</a> </li>
+                <li><a href="/Users/sangeetagupta/WebstormProjects/project_1/movie_gallery.html?sort_type=popular" class="menu_item">Popular Movies</a></li>
+                <li><a href="/Users/sangeetagupta/WebstormProjects/project_1/movie_gallery.html?sort_type=top_rated"  class="menu_item">Top Rated Movies</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="parallax"></div>
+
+<div style="display:block;height:400px;background-color:transparent;font-size:20px;font-family: 'Nunito Sans', sans-serif">
+    <center><h2 style="color:#ffc700">About us</h2></center>
+    <p align="justify" style="padding-left: 30px;padding-right: 30px">
+    The Movies hub is a one stop destination for all those people looking to find good movies to spend this quarantine.
+    I think all of us would agree that lockdown has actually helped us complete the tv series/movies that were always on
+    on our list but we could never complete. So here's bringing more fun, serious, dramatic movies to you! Find the top
+    rated and popular movies from around the world and share your experiences of movie watching with us too!
+    The movies list is generated from The Movies Database (TMDb) API.
+    </p>
+</div>
+<div class="parallax"></div>
+<script src="javascript/movie_home.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Gallery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/movie_grid.css">
+    <link rel="stylesheet" href="css/navigation.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+<body>
+<header>
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper">
+            <ul id="nav-left" class="left hide-on-med-and-down">
+                <li><a href="/Users/sangeetagupta/WebstormProjects/project_1/home.html" class="menu_item">The Movie Bud</a> </li>
+                <li><a href="/Users/sangeetagupta/WebstormProjects/project_1/movie_gallery.html?sort_type=popular" class="menu_item">Popular Movies</a></li>
+                <li><a href="/Users/sangeetagupta/WebstormProjects/project_1/movie_gallery.html?sort_type=top_rated"  class="menu_item">Top Rated Movies</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="grid-container" id="poster_container">
+</div>
+<script src="javascript/movie_grid_generation.js"></script>
+</body>
+</html>
